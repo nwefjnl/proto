@@ -1,1 +1,1 @@
-https://github.com/nwefjnl/proto.git
+https://nwefjnl.github.io/proto/
