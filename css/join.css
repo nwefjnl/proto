@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+#joinsection { padding-top:106px }
+#joinsection .inner { padding:100px 0 }
+#joinsection  h2 { 
+    text-align:center;
+    font-size:30px;
+    color:#282826;
+    padding:10px 0 10px;
+   
+}
+#joinsection form { width:80%; margin: auto;}
+#joinsection legend {
+    padding:20px 0;
+    font-size:25px; 
+}
+#joinsection .text { display:block; padding:20px 0 }
+#joinsection .text input { width:300px; padding:15px;  }
+#joinsection .text input:focus {  outline:1px solid; color:blue; border:none }
+#joinsection .text span { margin-top:10px; opacity:0; display:block; color:blue; transition:all 0.5s }
+#joinsection .text input:focus+span {
+    opacity:1; 
+} 
+#joinsection .irumtext { margin:20px 0; position:relative; }
+#joinsection .irumtext input { width:300px; padding:15px;
+  
+}
+#joinsection .irumtext label {
+    position:absolute; top:0; left:0; padding:15px; 
+    transition:all 0.5s; 
+}
+#joinsection .irumtext input:focus+label {
+    top:-15px; left:-15px; color:blue; font-size:10px; 
+}
+#joinsection .birthday input { width:100px; padding:15px; 
+
+}
+#joinsection #edomain { width:150px; padding:15px; }
+#joinsection .email input {  width:150px; padding:15px;}
+#joinsection .telephone input { width:100px; padding:15px;
+}
+#joinsection textarea { width:400px ; height:100px;}
+#joinsection .option p { margin-top:20px;}
+#joinsection .button { background:skyblue;}
